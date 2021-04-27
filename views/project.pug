@@ -24,9 +24,8 @@ block content
         ul
 
           //- Use an `each` iterator and interpolation to dynamically replace the li tags below with the technologies listed for this project
-          li HTML
-          li CSS
-          li JavaScript
+        each tech in project.technologies
+          li= tech
 
         //- Add the href values to the links below
         a.btn-link(href=`${project.live_link}`) Live Demo
