@@ -67,6 +67,6 @@ app.use((err, req, res, next) => {
 });
 
 //Add listener for the host
-app.listen(3030, () => {
-  console.log("The application is running on localhost: 3030!");
+app.listen(3000, () => {
+  console.log("The application is running on localhost: 3000!");
 });

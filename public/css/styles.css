@@ -285,7 +285,7 @@ nav a span {
   max-width: 1065px;
   margin-bottom: 15px;
   border: 4px solid #fff;
-  box-shadow: 0 0 0 3px rgba(10, 10, 10, 0.2);
+  box-shadow: 0 0 0 5px rgba(10, 10, 10, 0.2);
 }
 
 .btn-link {
