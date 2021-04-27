@@ -1,9 +1,10 @@
 //Require Express
 const express = require("express");
 const app = express();
+const path = require("path");
 
 //Require JSON data
-const data = require("data");
+const data = require("./data.json").data;
 
 //set view engine to pug
 app.set("view engine", "pug");
@@ -25,6 +26,7 @@ app.get("/about", (req, res) => {
 
 //dynamic project routes - render a different project template
 app.get("/project/:id", function(req, res, next) {
+  projectId = req.params.id;
   const project = projects.find(({ id }) => id === +projectId);
   res.render("project", { project });
 });

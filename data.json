@@ -1,0 +1,76 @@
+{
+  "data": {
+    "projects": [
+      {
+        "id": 0,
+        "project_name": "Random Quote Generator",
+        "description": "I created a Random Quote generator with an array and several functions. I included great authors, just click 'next' and you have a new quote.",
+        "technologies": "JavaScript, HTML, CSS",
+        "live_link": "https://vpanameno.github.io/Techdegree-Project-1/",
+        "github_link": "https://github.com/vpanameno/Techdegree-Project-1",
+        "image_urls": [
+          "../static/images/Project1/Project_1.jpg",
+          "../static/images/Project1/Project_1.1.jpg",
+          "../static/images/Project1/Project_1.2.jpg",
+          "../static/images/Project1/Project_1.3.jpg"
+        ]
+      },
+      {
+        "id": 1,
+        "project_name": "Data Pagination and Filtering",
+        "description": "In this project, I've created several functions. In the showPage function will display 9 students on the page from list with its corresponding information. addPagination function will assign button a number depending on number of students and make the button fucntional",
+        "technologies": "JavaScript, HTML, CSS",
+        "live_link": "https://vpanameno.github.io/Techdegree-Project-2/",
+        "github_link": "https://github.com/vpanameno/Techdegree-Project-2",
+        "image_urls": [
+          "../static/images/Project2/Project_2.jpg",
+          "../static/images/Project2/Project_2.1.jpg",
+          "../static/images/Project2/Project_2.2.jpg",
+          "../static/images/Project2/Project_2.3.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "project_name": "Interactive Form",
+        "description": "Creating Interactive Forms using multiple techniques of JS including form validation and accessibility as well as manipulating the DOM",
+        "technologies": "JavaScript, HTML, CSS",
+        "live_link": "https://vpanameno.github.io/Techdegree-Project-3/",
+        "github_link": "https://github.com/vpanameno/Techdegree-Project-3",
+        "image_urls": [
+          "../static/images/Project3/Project_3.jpg",
+          "../static/images/Project3/Project_3.2.jpg",
+          "../static/images/Project3/Project_3.1.jpg",
+          "../static/images/Project3/Project_3.3.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "project_name": "OOP Game Show App",
+        "description": "In this project I used what I learned in previous courses about the DOM and event listeners along with new knowledge with objects including properties, methods, constructors, and even different ways to iterate over arrays with objects. My game does what it's meant to do and will reset at the very end to start a new game.",
+        "technologies": "JavaScript, HTML, CSS",
+        "live_link": "https://vpanameno.github.io/Techdegree-Project-4/",
+        "github_link": "https://github.com/vpanameno/Techdegree-Project-4",
+        "image_urls": [
+          "../static/images/Project4/Project_4.jpg",
+          "../static/images/Project4/Project_4.1.jpg",
+          "../static/images/Project4/Project_4.3.jpg",
+          "../static/images/Project4/Project_4.2.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "project_name": "Public API Requests",
+        "description": "In this project, I learned how to make API requests using fetch. I had a lot of fun (and a bit of trouble) making sure that if the modal is clicked that the correct information is displayed. I used skills from our previous projects and fetched from the random person generator.",
+        "technologies": "JavaScript, HTML, CSS",
+        "live_link": "https://vpanameno.github.io/Techdegree-Project-5/",
+        "github_link": "https://github.com/vpanameno/Techdegree-Project-5",
+        "image_urls": [
+          "../static/images/Project5/Project_5.jpg",
+          "../static/images/Project5/Project_5.1.jpg",
+          "../static/images/Project5/Project_5.2.jpg",
+          "../static/images/Project5/Project_5.3.jpg"
+        ]
+      }
+    ]
+  }
+}
