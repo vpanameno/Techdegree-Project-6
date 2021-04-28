@@ -18,7 +18,7 @@
       {
         "id": 1,
         "project_name": "Data Pagination and Filtering",
-        "description": "In this project, I've created several functions. In the showPage function will display 9 students on the page from list with its corresponding information. addPagination function will assign button a number depending on number of students and make the button fucntional",
+        "description": "In this project, I've created several functions. In the showPage function, it will display 9 students on the page from list with its corresponding information. addPagination function will assign button a number depending on number of students and make the button fucntional",
         "technologies": [
           "DOM",
           "eventListener",

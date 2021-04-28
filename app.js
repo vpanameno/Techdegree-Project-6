@@ -16,7 +16,7 @@ const projects = data.projects;
 
 app.get("/error", (req, res, next) => {
   // Log out custom error handler indication
-  console.log("custom error route called");
+  // console.log("custom error route called");
 
   const err = new Error();
   err.message = "Custom 500 error thrown";
