@@ -40,8 +40,7 @@ app.get("/project/:id", function(req, res, next) {
   if (project) {
     res.render("project", { project });
   } else {
-    console.log("404 has been thrown. That project does not exist.");
-    const err = new Error("This page is not found, project does not exist");
+    const err = new Error();
     err.status = 404;
     next(err);
   }
@@ -50,8 +49,7 @@ app.get("/project/:id", function(req, res, next) {
 //404 HANDLER TO CATCH NON EXISTENT ROUTE REQUESTS
 
 app.use((req, res, next) => {
-  console.log("404 has been thrown. Page not found");
-  const err = new Error("Page Not Found"); //creating error object
+  const err = new Error(); //creating error object
   err.status = 404;
   next(err); //error object is passed to next function
 });
@@ -59,10 +57,13 @@ app.use((req, res, next) => {
 //GLOBAL HANDLER
 app.use((err, req, res, next) => {
   if (err.status === 404) {
+    err.message = "Oops that page does not exist.";
+    console.log(err.message);
     res.status(err.status);
     return res.render("page-not-found", { err });
   } else {
     err.message = "Oops! It looks like something went wrong with the server.";
+    console.log(err.message);
     return res.status(err.status || 500).render("error", { err });
   }
 });
